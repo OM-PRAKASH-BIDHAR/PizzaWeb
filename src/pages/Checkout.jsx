@@ -22,10 +22,9 @@ const Checkout = () => {
       return;
     }
 
-    const totalPrice = getTotalPrice()?.toFixed(2) || "0.00"; // ✅ Ensures valid price
+    const totalPrice = getTotalPrice()?.toFixed(2) || "0.00"; 
     clearCart();
-    navigate("/confirm-order", { state: { totalPrice } }); // ✅ Pass total price as state
-  };
+    navigate("/confirm-order", { state: { totalPrice } }); 
 
   return (
     <div className="relative h-screen w-full">
