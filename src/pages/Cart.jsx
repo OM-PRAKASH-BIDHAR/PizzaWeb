@@ -16,18 +16,17 @@ const Cart = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-[url('/pizza.png')] bg-cover bg-center p-6">
-      {/* ✅ Background Blur Layer */}
+    
       <div className="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0.8"></div>
 
-      {/* ✅ Cart Content (Above Background) */}
       <div className="relative z-10 w-full max-w-lg bg-red-700 bg-opacity-95 p-6 rounded-2xl shadow-2xl border border-yellow-500">
-        {/* 🍕 Fun Heading */}
+     
         <div className="flex justify-center items-center gap-3 mb-6 text-white text-3xl font-bold drop-shadow-md">
           <FaPizzaSlice className="text-yellow-500" />
           <h1>Your Pizza Cravings</h1>
         </div>
 
-        {/* 📌 If Cart is Empty */}
+  
         {cart.length === 0 ? (
           <div className="text-center">
             <p className="text-lg text-white">
@@ -47,14 +46,14 @@ const Cart = () => {
                 key={pizza.id}
                 className="flex items-center justify-between border-b border-gray-300 pb-4 mb-4"
               >
-                {/* 🍕 Pizza Image */}
+           
                 <img
                   src={pizza.image}
                   alt={pizza.name}
                   className="w-16 h-16 rounded-md shadow-md"
                 />
 
-                {/* 📌 Name & Price */}
+           
                 <div className="flex flex-col flex-1 ml-4">
                   <p className="text-lg font-semibold text-white">
                     {pizza.name}
@@ -94,7 +93,7 @@ const Cart = () => {
               </div>
             ))}
 
-            {/* ✅ Proceed to Checkout */}
+       
             <button
               onClick={() => navigate("/checkout")}
               className="w-full mt-4 px-6 py-3 bg-red-400 text-black text-lg font-semibold rounded-lg shadow-md hover:bg-red-500 transition-all cursor-pointer"
