@@ -8,7 +8,7 @@ import Checkout from "./pages/Checkout";
 import Contact from "./pages/Contact";
 import OrderTracking from "./pages/OrderTracking";
 import Cart from "./pages/Cart";
-import Navbar from "./components/Navbar"; // ✅ Ensure this is correctly imported
+import Navbar from "./components/Navbar"; 
 import Footer from "./components/Footer";
 import ConfirmOrder from "./pages/ConfirmOrder";
 
@@ -17,7 +17,7 @@ function App() {
     <CartProvider className="width-[1400px]">
       <Router>
         <div className="min-h-screen flex flex-col">
-          <Navbar /> {/* ✅ Navbar should be here */}
+          <Navbar /> 
           <div className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
