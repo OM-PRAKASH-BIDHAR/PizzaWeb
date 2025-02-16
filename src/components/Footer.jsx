@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-red-800 h-20 px-7 text-white shadow-md flex items-center">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Brand Name */}
+      
         <div className="flex flex-col">
           <h1 className="text-2xl font-bold">LaPizzaria</h1>
           <p className="text-sm text-white">
@@ -13,7 +13,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Navigation Links */}
+
         <ul className="flex justify-around items-center gap-8 font-semibold text-[16px]">
           <li>
             <Link
@@ -49,7 +49,7 @@ const Footer = () => {
           </li>
         </ul>
 
-        {/* Social Media Links */}
+    
         <div className="flex space-x-5 text-2xl">
           <a
             href="#"
