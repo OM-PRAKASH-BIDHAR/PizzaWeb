@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom"; // ✅ Import useLocation
+import { useNavigate, useLocation } from "react-router-dom"; 
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
 
 const ConfirmOrder = () => {
   const navigate = useNavigate();
-  const location = useLocation(); // ✅ Get the state from navigation
-  const totalPrice = location.state?.totalPrice || "0.00"; // ✅ Fallback if state is missing
+  const location = useLocation(); 
+  const totalPrice = location.state?.totalPrice || "0.00"; 
 
   const [showGlow, setShowGlow] = useState(true);
 
