@@ -10,7 +10,7 @@ const Contact = () => {
         style={{ filter: "blur(5px)", opacity: 0.9 }}
       ></div>
 
-      {/* Left Section - Contact Form */}
+   
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -51,7 +51,6 @@ const Contact = () => {
           </motion.button>
         </form>
 
-        {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mt-6">
           <motion.a
             whileHover={{ scale: 1.2 }}
@@ -84,7 +83,7 @@ const Contact = () => {
         </div>
       </motion.div>
 
-      {/* Middle Section - Contact Info */}
+    
       <motion.div
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
