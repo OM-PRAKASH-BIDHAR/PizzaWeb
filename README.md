@@ -13,24 +13,20 @@ Welcome to the Pizza App! This application allows users to order their favorite 
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/pizza-app.git
-
-   ```
-
-   ```
+  https://github.com/SakshiY-Dev/pizza-webapp.git
 
 2. Navigate to the project directory:
-   cd pizza-app
+   cd pizza-webapp
 
 3. Install dependencies:
 
-   npm run dev
+   npm install
 
 ## Usage
 
 1. Start the development server:
 
-   npm start
+   npm run dev
 
 2. Open your browser and go to `http://localhost:5173`
 
@@ -44,4 +40,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or feedback, please contact [your email].
+For any questions or feedback, please contact [sakshiy1627@gmail.com].
