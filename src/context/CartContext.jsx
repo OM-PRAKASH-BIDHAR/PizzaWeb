@@ -2,13 +2,12 @@ import { createContext, useContext, useState } from "react";
 
 const CartContext = createContext();
 
-// Custom hook to use the cart context
+
 export const useCart = () => useContext(CartContext);
 
 export const CartProvider = ({ children }) => {
-  const [cart, setCart] = useState([]); // State to store cart items
+  const [cart, setCart] = useState([]); 
 
-  // Function to add an item to the cart
   const addToCart = (pizza) => {
     setCart((prevCart) => {
       const existingItem = prevCart.find((item) => item.id === pizza.id);
@@ -31,7 +30,7 @@ export const CartProvider = ({ children }) => {
     );
   };
 
-  // Function to decrease quantity of an item (removes item if quantity becomes 0)
+  
   const decreaseQuantity = (id) => {
     setCart(
       (prevCart) =>
@@ -39,19 +38,19 @@ export const CartProvider = ({ children }) => {
           .map((item) =>
             item.id === id ? { ...item, quantity: item.quantity - 1 } : item
           )
-          .filter((item) => item.quantity > 0) // Remove item if quantity is 0
+          .filter((item) => item.quantity > 0) 
     );
   };
 
-  // Function to remove item from cart
+ 
   const removeFromCart = (id) => {
     setCart((prevCart) => prevCart.filter((item) => item.id !== id));
   };
   const clearCart = () => {
-    setCart([]); // ✅ Clears all items from the cart
+    setCart([]); 
   };
 
-  // Function to calculate total price
+ 
   const getTotalPrice = () => {
     return cart.reduce((total, item) => total + item.price * item.quantity, 0);
   };
