@@ -4,7 +4,7 @@ const PizzaCard = ({ pizza }) => {
   const { addToCart } = useCart(); // Access cart functions
 
   return (
-    <div className="w-116 h-86 bg-amber-500 shadow-lg rounded-xl overflow-hidden p-4 flex flex-col items-center transition-transform transform hover:scale-105">
+    <div className="w-100 h-86 bg-amber-500 shadow-lg rounded-xl overflow-hidden p-4 flex flex-col items-center transition-transform transform hover:scale-105">
       <img
         src={pizza.image}
         alt={pizza.name}

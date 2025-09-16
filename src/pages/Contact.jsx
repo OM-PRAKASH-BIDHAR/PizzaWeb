@@ -4,7 +4,7 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-evenly md:flex-row items-start w-full min-h-screen bg-black bg-opacity-90 p-6 bg-opacity-90  bg-[url(/contact_bg.jpg)] bg-cover bg-center bg-no-repeat backdrop-blur-lg ">
+    <div className="flex flex-col justify-evenly md:flex-row items-start w-full min-h-screen bg-red-700 bg-opacity-90 p-6 bg-opacity-90  bg-[url(/contact_bg.jpg)] bg-cover bg-center bg-no-repeat backdrop-blur-lg ">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-[url(/contact-bg.png)]"
         style={{ filter: "blur(5px)", opacity: 0.9 }}

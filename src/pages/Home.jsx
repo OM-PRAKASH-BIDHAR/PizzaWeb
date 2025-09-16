@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <div className="relative h-screen w-full">
       <div className="absolute inset-0 bg-[url('/landing.png')] bg-cover bg-center">
-        <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-red-700 backdrop-blur-sm"></div>
       </div>
 
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-white text-center px-6 gap-4">

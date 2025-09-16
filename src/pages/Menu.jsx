@@ -54,11 +54,35 @@ const pizzaList = [
     image:
       "https://images.unsplash.com/photo-1576458088443-04a19bb13da6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // valid URL from Unsplash
   },
+
+  {
+    id: 7,
+    name: "Hawaiian Pizza",
+    description: "Ham and pinapple for a sweet and savory combo.",
+    price: 11.99,
+    image: "https://www.jessicagavin.com/wp-content/uploads/2020/07/hawaiian-pizza-16-1200.jpg", // valid image URL
+  },
+
+  {
+    id: 8,
+    name: "7 in 1 Veg Pizza",
+    description: "Loaded with 7 different veggies for a burst of flavors.",
+    price: 20.99,
+    image: "https://feenix.co.in/wp-content/uploads/2025/04/0846673d-1d5d-4c2a-ba2e-1570aa0fdb62_HomeProductV1BigBigPizzaVeg-430x430.webp",
+  },
+
+  {
+    id: 9,
+    name : "7 in 1 Non-Veg Pizza",
+    description: "A meat lover's dream with 7 types of delicious meats.",
+    price: 22.99,
+    image: "https://feenix.co.in/wp-content/uploads/2025/03/875ced16-9c5b-4c88-b6a7-d101d1d76ce8_HomeProductBigBigPizzaNonVeg.webp",
+  },
 ];
 
 const Menu = () => {
   return (
-    <div className="min-h-screen bg-black p-6">
+    <div className="min-h-screen bg-red-700 p-6">
       <h1 className="text-3xl font-bold text-center text-gray-100 mb-6 font-serif">
         <strong>
           <i>Our Menu</i>

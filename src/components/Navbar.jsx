@@ -7,7 +7,7 @@ const Navbar = () => {
   const { cart } = useCart();
 
   return (
-    <nav className="bg-red-800 h-20 px-7 text-white shadow-md text-[18px] flex items-center ">
+    <nav className="bg-black-800 h-20 px-7 text-white shadow-md text-[18px] flex items-center ">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="flex items-center gap-5 text-3xl font-bold">
           <CiPizza className="text-6xl text-amber-500" />

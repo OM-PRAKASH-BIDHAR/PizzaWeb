@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="relative bg-black text-white">
+    <div className="relative bg-red-700 text-white">
       {/* Parallax Background */}
       <div className="absolute inset-0 bg-[url('/pizza-bg.jpg')] bg-fixed bg-cover bg-center opacity-20"></div>
 
