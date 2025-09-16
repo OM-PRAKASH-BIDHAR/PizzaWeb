@@ -36,8 +36,8 @@ Contributions are welcome! Please fork the repository and create a pull request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Debugshala.
 
 ## Contact
 
-For any questions or feedback, please contact [sakshiy1627@gmail.com].
+For any questions or feedback, please contact [bidharomprakash@gmail.com].
